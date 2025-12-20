@@ -2,6 +2,8 @@
 
 ![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/7678b30ce35236ec7465262923f602556f84c9ab/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20querying%20the%20database%20type%20and%20version%20on%20MySQL%20and%20Microsoft/Images/Lab%20Description.png)
 
+We find a message delivered during lab practice displayed as garbled text on the webpage.
+
 ![image]()
 
 
