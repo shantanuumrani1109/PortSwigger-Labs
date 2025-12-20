@@ -1,7 +1,7 @@
 
 ## Lab Description :
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/7d6984950e53994e4fcf4b47b99b9d9f711d3fd8/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20non-Oracle%20databases/Images/Lab%20Description.png)
 
 ## Solution :
 
