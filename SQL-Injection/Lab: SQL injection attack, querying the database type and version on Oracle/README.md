@@ -2,7 +2,9 @@
 
 ![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/48bada6740530f9d3cd5f85919d71d9708a8a2cb/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20querying%20the%20database%20type%20and%20version%20on%20Oracle/Images/Lab%20Description.png)
 
-![image]()
+We find a message delivered during lab practice displayed as garbled text on the webpage.
+
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/dd41c81b2e82c8928e1c4b40edbb1794e38283e4/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20querying%20the%20database%20type%20and%20version%20on%20Oracle/Images/Garbled%20Text.png)
 
 
 ## Solution :
