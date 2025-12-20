@@ -4,8 +4,7 @@
 
 We find a message delivered during lab practice displayed as garbled text on the webpage.
 
-![image]()
-
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/9f06d81ac03d3fcb827eb0bb22b467358ee033f7/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20querying%20the%20database%20type%20and%20version%20on%20MySQL%20and%20Microsoft/Images/Garbled%20Text.png)
 
 ## Solution :
 
