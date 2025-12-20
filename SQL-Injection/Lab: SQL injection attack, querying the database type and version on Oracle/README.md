@@ -23,7 +23,7 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' ORDER BY 3 --
 
 
 ```sql
-SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT 'shebu','cys' FROM dual --
+SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT 'Banner','null' FROM dual --
 ```
 Both the columns show the text in response. So both columns support text data.
 
