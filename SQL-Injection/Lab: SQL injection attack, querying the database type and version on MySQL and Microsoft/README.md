@@ -38,5 +38,5 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT @@version,NUL
 ```
 ![image]()
 
-![image](https://user-images.githubusercontent.com/67383098/234122101-b1a2b88b-2e38-4d3b-8137-406bef3484b1.png)
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/fba74303ae81bb6123d3060c79d0bddae0c99593/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20querying%20the%20database%20type%20and%20version%20on%20MySQL%20and%20Microsoft/Images/Lab%20Solution.png)
 
