@@ -45,7 +45,7 @@ We got the db info we needed.
 
 #### Solution on Webpage
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/c5d8044d4f25581499d981303f7136458d229706/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20querying%20the%20database%20type%20and%20version%20on%20Oracle/Images/Solution%20on%20Webpage.png)
 
 ![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/3f3225b268066b63e9646226e527fabf73f6a8a9/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20querying%20the%20database%20type%20and%20version%20on%20Oracle/Images/Lab%20Solution.png)
 
