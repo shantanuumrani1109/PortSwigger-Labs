@@ -90,5 +90,5 @@ wiener - `7qsyjg4sbbxt16easf7l`
 
 Now login as administrator,
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/2b18f70ab6dbf6f1f699ae6cdfe328ac61f01d47/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20non-Oracle%20databases/Images/Lab%20Solution.png)
 
