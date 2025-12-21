@@ -55,7 +55,8 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT table_name,NU
 
 We get list of all the available tables
 
-![image]()
+![image](<img width="1365" height="628" alt="Available Tables" src="https://github.com/user-attachments/assets/1629df1e-c145-4d19-93d0-097ccfa81d2d" />
+)
 
 ![image]()
 
