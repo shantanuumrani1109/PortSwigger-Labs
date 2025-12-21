@@ -86,9 +86,9 @@ Now we get the username and password of all users.
 
 ![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/bd32e5f8c0fada926c064f0a4a81e377a169581a/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20non-Oracle%20databases/Images/Retrieve%20Users%20on%20Webpage.png)
 
-administrator - `a80zs35scefit206tw5s`
-carlos - `hfs0tq3xzvdz2awja6bn`
-wiener - `7qsyjg4sbbxt16easf7l`
+administrator - `zxtfggsiq8qxkdy9h8xf`
+carlos - `scydoe73quxko6v3upue`
+wiener - `eu4djukbfzz7fl1wriu4`
 
 Now login as administrator,
 
