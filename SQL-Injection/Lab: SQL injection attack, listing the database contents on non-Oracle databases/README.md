@@ -23,13 +23,13 @@ SELECT * FROM information_schema.columns WHERE table_name = 'Users'
 
 #### Determine the number of columns -
 
-**ORDER BY 3**
+**ORDER BY 2**
 
 ```sql
-SELECT * FROM someTable WHERE category = '<CATEGORY>' ORDER BY 3--
+SELECT * FROM someTable WHERE category = '<CATEGORY>' ORDER BY 2--
 ```
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/6357f92d8b0690254abb9272ead8c0e620f01eb8/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20non-Oracle%20databases/Images/Number%20of%20Columns.png)
 
 #### Determine wich column contains text data
 
