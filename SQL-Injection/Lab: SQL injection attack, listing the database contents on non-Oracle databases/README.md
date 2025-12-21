@@ -68,6 +68,8 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT column_name,N
 
 We get these columns
 
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/2fcbb2e6e30041a29f5211cc782a063125df418d/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20non-Oracle%20databases/Images/List%20Columns%20on%20Burpsuite.png)
+
 ![image]()
 
 columns - `username_yoqrkg` & `password_btqiad`
