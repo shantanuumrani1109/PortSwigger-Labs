@@ -46,7 +46,7 @@ Both the columns contain text data.
 
 From the information schema tables, there are some default columns.
 
-![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/tree/4f8258cfd1ff1b4f85d62e0360fe664dbe838354/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20non-Oracle%20databases)
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/b71dd2bec785812c259e46ad6f10b153f1c7b645/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20non-Oracle%20databases/Images/Default%20Columns.png)
 
 
 ```sql
