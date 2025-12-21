@@ -53,12 +53,9 @@ From the information schema tables, there are some default columns.
 SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT table_name,NULL FROM information_schema.tables--
 ```
 
-We get list of all the available tables
+We get list of all the available tables along with table name.
 
-![image](<img width="1365" height="628" alt="Available Tables" src="https://github.com/user-attachments/assets/1629df1e-c145-4d19-93d0-097ccfa81d2d" />
-)
-
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/8d055a8ad39704c61ade37be243083a16bdd6e9d/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20non-Oracle%20databases/Images/User%20ID.png)
 
 
 #### List columns -
