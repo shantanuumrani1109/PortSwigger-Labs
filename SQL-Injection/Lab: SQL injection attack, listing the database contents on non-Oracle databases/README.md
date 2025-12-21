@@ -74,7 +74,7 @@ We get these columns
 
 columns - `username_xvncpg` & `password_djyube`
 
-#### Retreive information from the columns username_yoqrkg & password_btqiad from the table users_fhlhke -
+#### Retreive information from the columns username_xvncpg & password_djyube from the table users_kdveix -
 
 
 ```sql
