@@ -57,7 +57,7 @@ We get list of all the available tables along with table name.
 
 ![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/5dee9c1d3c67aab670e4902065b0f1ebc18cba6e/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20non-Oracle%20databases/Images/Available%20Tables.png)
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/1c797c32f835aebb148fd8bcab56e5b62c9f7d4c/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20non-Oracle%20databases/Images/Table%20Name.png)
 
 
 #### List columns -
