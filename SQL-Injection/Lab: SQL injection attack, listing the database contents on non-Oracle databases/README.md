@@ -38,7 +38,7 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' SELECT 'abc','def'--
 ```
 Both the columns contain text data.
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/2c530c092ff1c047df3426238f59e4619a833296/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20non-Oracle%20databases/Images/Column%20contain%20String.png)
 
 ### List the database contents
 
