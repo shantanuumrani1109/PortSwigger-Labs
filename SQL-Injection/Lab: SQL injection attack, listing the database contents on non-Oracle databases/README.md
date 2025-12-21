@@ -20,8 +20,6 @@ SELECT * FROM information_schema.columns WHERE table_name = 'Users'
 
 ## Steps
 
-![image]()
-
 
 #### Determine the number of columns -
 
