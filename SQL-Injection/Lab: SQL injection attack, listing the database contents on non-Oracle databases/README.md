@@ -55,7 +55,9 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT table_name,NU
 
 We get list of all the available tables along with table name.
 
-![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/8d055a8ad39704c61ade37be243083a16bdd6e9d/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20non-Oracle%20databases/Images/User%20ID.png)
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/5dee9c1d3c67aab670e4902065b0f1ebc18cba6e/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20non-Oracle%20databases/Images/Available%20Tables.png)
+
+![image]()
 
 
 #### List columns -
