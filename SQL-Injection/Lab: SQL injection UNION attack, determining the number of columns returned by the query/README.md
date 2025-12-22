@@ -33,7 +33,7 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' ORDER BY 1 --
 
 **ORDER BY 4**
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/820e3c7ccf659bfa36f97bbc073493e171728b98/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20determining%20the%20number%20of%20columns%20returned%20by%20the%20query/Images/ORDER%20BY%204.png)
 
 This throws an error. It means that there are 3 columns that is being retreived in the query by the web application.
 
