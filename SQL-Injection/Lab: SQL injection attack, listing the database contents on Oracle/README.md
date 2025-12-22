@@ -19,7 +19,7 @@ Order by 3 throws a error which means there are 2 columns.
 SELECT * FROM someTable WHERE category = '<CATEGORY>' ORDER BY 3 --
 ```
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/df54841332b8401b43c41b18d244497e72143b37/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20Oracle/Images/Number%20of%20Columns.png)
 
 #### Determine column with text data
 
