@@ -62,6 +62,8 @@ We can list all the columns by querying `SELECT * FROM all_tab_columns WHERE tab
 SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT column_name,NULL FROM all_tab_columns WHERE table_name='USERS_MVMNFH'--
 ```
 
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/363d192f81e49244ff02732548d392b0961bb860/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20Oracle/Images/List%20Columns%20on%20BurpSuite.png)
+
 ![image]()
 
 
