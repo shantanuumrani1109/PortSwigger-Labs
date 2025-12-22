@@ -39,7 +39,7 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT 'stydPI',NULL
 SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT NULL,'stydPI',NULL
 ```
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/6471c88c947b4058c68f4e140230741ef5a36cc1/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20finding%20a%20column%20containing%20text/Images/Payload%20in%202nd%20NULL%20value.png)
 
 ![image]()
 
