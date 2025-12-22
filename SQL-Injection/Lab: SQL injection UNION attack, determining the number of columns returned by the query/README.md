@@ -43,7 +43,7 @@ Now as per our given question, we use **UNION SELECT NULL** payload to return an
 SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT NULL,NULL,NULL --
 ```
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/2a52b8f97024582939e2d7d7877d1beccfd23606/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20determining%20the%20number%20of%20columns%20returned%20by%20the%20query/Images/UNION.png)
 
 
 
