@@ -21,7 +21,7 @@ We craft the request by adding **UNION** along with **ORDER BY** clause to *find
 SELECT * FROM someTable WHERE category = '<CATEGORY>' ORDER BY 1 --
 ```
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/73144a40279ab4cc04ec7378e6a6491ee7f0caf4/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20determining%20the%20number%20of%20columns%20returned%20by%20the%20query/Images/ORDER%20BY%201.png)
 
 **ORDER BY 2**
 
