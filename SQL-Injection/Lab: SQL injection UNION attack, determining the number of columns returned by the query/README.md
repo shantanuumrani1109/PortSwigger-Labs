@@ -1,6 +1,6 @@
 ## Lab Description :
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/ec88175d04310c5dd9da2f9fd7de8889f9730e08/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20determining%20the%20number%20of%20columns%20returned%20by%20the%20query/Images/Lab%20Description.png)
 
 
 ## Solution :
