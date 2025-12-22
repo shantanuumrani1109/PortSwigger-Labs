@@ -31,7 +31,7 @@ Both columns have text data
 SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT 'abc','def' FROM DUAL--
 ```
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/b1d2081d55c47bb356f833c06c48b974a09331f2/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20Oracle/Images/Columns%20contain%20String.png)
 
 ## Retreive data from ORACLE db -
 
