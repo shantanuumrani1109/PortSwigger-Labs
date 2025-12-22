@@ -29,7 +29,7 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' ORDER BY 1 --
 
 **ORDER BY 3**
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/536812ecc6b348028915b27e82a164d1d99f6118/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20determining%20the%20number%20of%20columns%20returned%20by%20the%20query/Images/ORDER%20BY%203.png)
 
 **ORDER BY 4**
 
