@@ -5,7 +5,7 @@
 
 ## Solution :
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/67e9e6b01687f50ebfa8f99d27ce2e800c6fc783/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20determining%20the%20number%20of%20columns%20returned%20by%20the%20query/Images/Render%20Details%20through%20BurpSuite.png)
 
 Query made - 
 
