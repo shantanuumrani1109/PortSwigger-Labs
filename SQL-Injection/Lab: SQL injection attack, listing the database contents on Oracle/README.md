@@ -46,7 +46,7 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT table_name,NU
 
 We get a list of all the tables,
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/986e3ef24a4d26c570ad48b500ea9bbc1a6e05a3/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20Oracle/Images/Available%20Tables.png)
 
 
 The table which we are interested in is this 
