@@ -1,6 +1,6 @@
 ## Lab Description :
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/94665b713a64ef2e438db55767ed97a91bdfd96d/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20finding%20a%20column%20containing%20text/Images/Lab%20Description.png)
 
 ## Solution :
 
