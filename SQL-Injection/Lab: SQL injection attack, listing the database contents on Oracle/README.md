@@ -76,11 +76,11 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT USERNAME_FNFY
 
 ![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/f83bf1793e6c7923acd96448eaf27e0eef2aebc0/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20Oracle/Images/Retrieve%20Users%20on%20BurpSuite.png)
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/bab8bab95dd6d1c62b8098f0dc39f746485e1523/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20Oracle/Images/Retrieve%20Users%20on%20Webpage.png)
 
-administrator - `eyjpiterylmsfcqq25ja`
-wiener        - `tl4drtumhh8bgq4ndq4f`
-carlos        - `z8ir2ghepg2rjjqgq3av`
+administrator - `crsixp7o01lyntoj1nb8`
+carlos        - `qxs03o63uqmv3f5ms8mi`
+wiener        - `xoqmqscxm7mjkzj10ugk`
 
 Now login as administrator,
 
