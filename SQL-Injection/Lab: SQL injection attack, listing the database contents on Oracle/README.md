@@ -80,6 +80,6 @@ carlos        - `z8ir2ghepg2rjjqgq3av`
 
 Now login as administrator,
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/38f651910f2543b2c00b85f4d6a550282f53a2c5/SQL-Injection/Lab%3A%20SQL%20injection%20attack%2C%20listing%20the%20database%20contents%20on%20Oracle/Images/Lab%20Solution.png)
 
 
