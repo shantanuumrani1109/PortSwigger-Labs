@@ -25,7 +25,7 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' ORDER BY 1 --
 
 **ORDER BY 2**
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/663e1f954e9e07ffa0e211231abccf51ca7eb2b6/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20determining%20the%20number%20of%20columns%20returned%20by%20the%20query/Images/ORDER%20BY%202.png)
 
 **ORDER BY 3**
 
