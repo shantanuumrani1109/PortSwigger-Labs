@@ -1,6 +1,6 @@
 ## Lab Description :
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/357366bf0e25866c031a4eed18b25a99fbe341dd/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20retrieving%20data%20from%20other%20tables/Images/Lab%20Description.png)
 
 ## Solution :
 
