@@ -11,10 +11,10 @@
 **ORDER BY 3** shows an error , it means the web application retreives 2 columns in the query
 
 ```sql
-SELECT * FROM someTable WHERE category = '<CATEGORY>' ORDER BY 4 --
+SELECT * FROM someTable WHERE category = '<CATEGORY>' ORDER BY 3 --
 ```
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/a576ec6cb10ec736748875ba75846d20e40e3b50/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20retrieving%20data%20from%20other%20tables/Images/ORDER%20BY%203.png)
 
 #### Determine which column contains text data
 
