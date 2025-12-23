@@ -50,7 +50,7 @@ Thus we got all the usernames & password stored in the database.
 
 Now we can login as administrator !
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/0e82303d4fb354d0f1d4190daf40f33f069abcc0/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20retrieving%20data%20from%20other%20tables/Images/Lab%20Solution.png)
 
 
 
