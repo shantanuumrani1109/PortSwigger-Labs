@@ -39,10 +39,7 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT 'HgP47P',NULL
 SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT NULL,'HgP47P',NULL
 ```
 
-![image](![Uploading image.png…]()
-)
-
-![image]()
+![image](<img width="1365" height="628" alt="Payload in 2nd NULL" src="https://github.com/user-attachments/assets/23196350-3ad5-41e8-b20c-b24d5486cce5" />)
 
 ![image]()
 
