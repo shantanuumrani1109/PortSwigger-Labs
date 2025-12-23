@@ -42,8 +42,6 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT NULL,'HgP47P'
 ![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/8fa7e370a8f3e98a2ade6a821067d3d503ba3459/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20finding%20a%20column%20containing%20text/Images/Payload%20in%202nd%20NULL.png)
 
 
-![image]()
-
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/132b5c390c2f61e7c72ad38ab0ec4e4d444c45c7/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20finding%20a%20column%20containing%20text/Images/Lab%20Solution.png)
 
 
