@@ -32,7 +32,7 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT 'A',NULL --
 SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT NULL,'A' --
 ```
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/7343f0401ef9008dc3b4c5f7185d5855ce89d669/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20retrieving%20data%20from%20other%20tables/Images/Payload%20in%202nd%20NULL.png)
 
 Since both the columns contain text data, we can retreive username and password from the users table of the database without any concatination method.
 
