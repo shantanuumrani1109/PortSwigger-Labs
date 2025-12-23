@@ -39,7 +39,8 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT 'HgP47P',NULL
 SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT NULL,'HgP47P',NULL
 ```
 
-![image]()
+![image](![Uploading image.png…]()
+)
 
 ![image]()
 
