@@ -31,7 +31,7 @@ We need to use the UNION SELECT payload  using 3 NULL values. Try the string val
 SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT 'HgP47P',NULL,NULL --
 ```
 
-![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/7f66bfbd0766470932dd6663f3d1c95d123f4387/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20finding%20a%20column%20containing%20text/Images/Payload%20in%201st%20NULL%20value.png)
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/d4e8b72adaf8a3470480f438697f1cba9a9c2b7f/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20finding%20a%20column%20containing%20text/Images/Payload%20in%201st%20NULL.png)
 
 **HgP47P in 2nd NULL -**
 
