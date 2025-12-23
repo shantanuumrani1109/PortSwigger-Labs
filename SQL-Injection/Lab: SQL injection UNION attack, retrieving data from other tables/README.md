@@ -24,7 +24,7 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' ORDER BY 3 --
 SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT 'A',NULL --
 ```
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/9f5ab59fd96e29258d7b3d30cad68cb73eca247d/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20retrieving%20data%20from%20other%20tables/Images/Payload%20in%201st%20NULL.png)
 
 *2nd column also retreives text data*
 
