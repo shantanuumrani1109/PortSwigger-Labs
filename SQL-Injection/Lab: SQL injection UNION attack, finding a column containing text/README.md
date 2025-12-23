@@ -15,7 +15,7 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>'
 SELECT * FROM someTable WHERE category = '<CATEGORY>' ORDER BY 4 --
 ```
 
-![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/900c20736439017c44da2e0965a2abe90959a300/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20finding%20a%20column%20containing%20text/Images/ORDER%20BY%204.png)
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/13d44334359f224f06c4a81297157e92302f3cd3/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20finding%20a%20column%20containing%20text/Images/ORDER%20BY%204.png)
 
 
 #### Determine the column containng text data -
