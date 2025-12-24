@@ -59,7 +59,7 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT NULL,'A' --
 
 #### Determine the type of database -
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/8a903c6448233c0a2f047efa9c9706bd33a0e99c/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20retrieving%20multiple%20values%20in%20a%20single%20column/Images/Database%20Types%20and%20Versions.png)
 
 Since we know 2nd column is containing text data, we can try to use version command of each database system to identify the type of database present in the backend.
 
