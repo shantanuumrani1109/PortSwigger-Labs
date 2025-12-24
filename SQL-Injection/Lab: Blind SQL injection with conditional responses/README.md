@@ -1,6 +1,6 @@
 ## Lab Description :
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/59fe059e72b0ee170a3c211c9f8fa80bf9aca500/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20responses/Images/Lab%20Description.png)
 
 ## Solution :
 
