@@ -7,7 +7,7 @@
 
 Request looks like 
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/660dd2660bc35821eec1956068e9819509ba4a5c/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20responses/Images/Cookie%20Session%20Tracking%20on%20BurpSuite.png)
 
 
 Query made looks something like -
@@ -15,7 +15,7 @@ Query made looks something like -
 ```sql
 SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>'
 ```
-where trackingID - `g2w1yAddN9LlERl3` Cookievalue - `xdpiZNiyUyxtsAfDKlsfxYJldM3xW576`
+where trackingID - `p4nnVDUerpJ5Wn5o` Cookievalue - `dTtYLh9zoaGA5BQuanGIQf1fpOrK8WkX`
 
 TrackingID parameter is vulnerable. This is a blind SQL injection since response is not diplayed back. 
 
