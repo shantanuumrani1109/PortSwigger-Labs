@@ -108,7 +108,7 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT NULL,username
 
 We got all the usernames & passwords,
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/578b3f6c727ae6609be80c8e3c182b39275841c1/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20retrieving%20multiple%20values%20in%20a%20single%20column/Images/Username%20and%20Passwords%20of%20Users.png)
 
 Now we can login as administrator
 
