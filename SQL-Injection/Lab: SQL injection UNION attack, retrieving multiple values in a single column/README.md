@@ -54,7 +54,7 @@ This column contains text data
 SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT NULL,'A' --
 ```
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/33246ef2e9bd41e325645c912596d07877c86c15/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20retrieving%20multiple%20values%20in%20a%20single%20column/Images/Payload%20in%202nd%20NULL.png)
 
 
 #### Determine the type of database -
