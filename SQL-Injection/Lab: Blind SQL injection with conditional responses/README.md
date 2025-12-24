@@ -7,7 +7,7 @@
 
 Request looks like 
 
-![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/f2e487d874f58642ca26d149500237f1da83c0f2/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20responses/Images/Cookie%20Session%20Tracking%20on%20BurpSuite.png)
+![image]()
 
 
 Query made looks something like -
