@@ -16,7 +16,7 @@ You can concatenate together multiple strings to make a single string.
 |            	| CONCAT('foo','bar')                                   	|
 | ORACLE     	| 'foo'\| \|'bar'                                       	|
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/f456c072d7b1a43a0ab85e457ce9de33c8e180a6/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20retrieving%20multiple%20values%20in%20a%20single%20column/Images/Pets%20Category.png)
 
 
 Query made - 
