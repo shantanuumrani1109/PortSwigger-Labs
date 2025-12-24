@@ -69,7 +69,7 @@ Since we know 2nd column is containing text data, we can try to use version comm
 SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT NULL,banner FROM v$version --
 ```
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/219f6827c29d56bbf3f0d90bd1e2aa8aa17a4e00/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20retrieving%20multiple%20values%20in%20a%20single%20column/Images/Internal%20Server%20Error%20-%20Oracle%20Database.png)
 
 500 - SERVER ERROR
 
