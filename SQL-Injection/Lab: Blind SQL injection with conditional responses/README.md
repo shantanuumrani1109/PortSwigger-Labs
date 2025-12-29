@@ -120,10 +120,18 @@ Automate this  -
 4. Payload 1 type - Numbers [range 1-20]
 5. Payload 2 type - Bruteforcer [min & max length = 1]
 
+Step 1: Attack type - Cluster bomb
+![image]()
+Step 2: Payload 1 - length checking part [>1]
+![image]()
+Step 3: Payload 2 - character checking part ['a'--]
+![image]()
+Step 4: Payload 1 type - Numbers [range 1-20]
+![image]()
+Step 5: Payload 2 type - Bruteforcer [min & max length = 1]
+![image]()
 
 In the filter settings, add the search item as `Welcome`
-
-![image]()
 
 Now we get 20 differnt payloads which give us the **Welcome back** option.
 
