@@ -127,7 +127,7 @@ Step 2: Payload 1 - length checking part [>1]
 Step 3: Payload 2 - character checking part ['a'--]
 ![image]()
 Step 4: Payload 1 type - Numbers [range 1-20]
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/3b169b2a92ae096c7ded7787492b55323880bdfb/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20responses/Images/Payload%201%20type.png)
 Step 5: Payload 2 type - Bruteforcer [min & max length = 1]
 ![image]()
 
