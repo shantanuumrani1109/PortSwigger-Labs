@@ -131,9 +131,9 @@ Now we get 20 differnt payloads which give us the **Welcome back** option.
 
 Araange the payload number and write the payload2 alphabets (password characters) in order .
 
-So the password is - `92fvq10oaxi0vjhxk7yw`
+So the password is - `b9q9ay14sdg2b1tkpgk9`
 
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/31bf0c4dd6b075cda32ac8aff48f9e21b0c42bce/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20responses/Images/Lab%20Solution.png)
 
 
