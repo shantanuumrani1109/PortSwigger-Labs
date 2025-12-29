@@ -13,7 +13,7 @@ Query made looks something like -
 ```sql
 SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>'
 ```
-where trackingID - `lCNHLndFRfJF7vMK` Cookievalue - `pn6synDKWsrqKlmKR3yTgOYMoARDiYGS`
+where trackingID - `L0mee8EnmldnnG7p` Cookievalue - `f5CKma0wVFN6Dr66lifBzNMizSM1wv1I`
 
 TrackingID parameter is vulnerable. This is a blind SQL injection since response is not diplayed back. 
 
