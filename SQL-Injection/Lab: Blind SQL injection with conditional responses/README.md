@@ -4,11 +4,9 @@
 
 ## Solution :
 
-
 Request looks like 
 
-![image]()
-
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/451a8fdbb5181707a36b451e69fa86ee4e19acbc/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20responses/Images/Cookie%20Session%20Tracking%20on%20BurpSuite.png)
 
 Query made looks something like -
 
