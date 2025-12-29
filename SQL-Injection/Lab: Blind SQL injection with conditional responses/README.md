@@ -127,9 +127,9 @@ In the filter settings, add the search item as `Welcome`
 
 Now we get 20 differnt payloads which give us the **Welcome back** option.
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/7a83791c64b3b4bbdeed0f27dd97f5242ee9e522/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20responses/Images/Payload%20Result%20-%20Password.png)
 
-Araange the payload number and write the payload2 alphabets (password characters) in order .
+Arrange the payload number and write the payload2 alphabets (password characters) in order .
 
 So the password is - `b9q9ay14sdg2b1tkpgk9`
 
