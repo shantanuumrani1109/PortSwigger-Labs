@@ -142,7 +142,7 @@ Thus we got the admin's password - `8fysuozl95mngaem0abi`
 
 Now we can log in as administrator ,
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/2a9148d5da3c6f65473ae99d94c4082f32ac8dcb/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20errors/Images/Lab%20Solution.png)
 
 
 
