@@ -67,7 +67,7 @@ We see a *Welcome back* msg , so it conforms that there is a users table.
 SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>' AND (SELECT 'a' FROM users WHERE username='administrator')='a
 ```
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/7eb765e2caeb0ab2e8d4474ef3b436c51beebaa4/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20responses/Images/Check%20for%20Administrator%20User.png)
 
 We confirm that there is a user called `administrator` in the database.
 
