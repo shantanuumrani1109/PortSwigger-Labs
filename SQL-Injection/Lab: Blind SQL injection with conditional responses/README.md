@@ -122,7 +122,7 @@ Automate this  -
 
 In the filter settings, add the search item as `Welcome`
 
-Now we get 20 differnt payloads which give us the **Welcome back** option.
+Now we get 20 different payloads which give us the **Welcome back** option.
 
 ![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/7a83791c64b3b4bbdeed0f27dd97f5242ee9e522/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20responses/Images/Payload%20Result%20-%20Password.png)
 
