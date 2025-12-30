@@ -85,7 +85,7 @@ The outer part of the string `AND (SELECT username FROM users WHERE username='ad
 
 This confirms that the password is greater than 1
 
-If we send the value as  50 ie `' AND (SELECT 'a' FROM users WHERE username='administrator' AND LENGTH(password)>50)='a`  , we dont get any welcome message which means its not > 50  characters.
+If we send the value as 1 ie `' AND (SELECT 'a' FROM users WHERE username='administrator' AND LENGTH(password)=1)='a`  , we dont get any welcome message which means its more than 1  characters.
 
 ![image]()
 
