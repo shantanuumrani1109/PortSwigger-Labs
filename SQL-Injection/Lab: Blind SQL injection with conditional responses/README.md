@@ -40,7 +40,7 @@ SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>' AND 1=1-- '
 SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>' AND 1=2-- '
 ```
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/b1daa365371f134a178ffe6cf696e5905696fa48/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20responses/Images/False%20Condition.png)
 
 
 From the above responses, we can we can exploit the blind injection vulnerablitiy .
