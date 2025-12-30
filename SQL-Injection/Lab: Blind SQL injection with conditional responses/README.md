@@ -87,7 +87,7 @@ This confirms that the password is greater than 1
 
 If we send the value as 1 ie `' AND (SELECT 'a' FROM users WHERE username='administrator' AND LENGTH(password)=1)='a`  , we dont get any welcome message which means its more than 1  characters.
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/ed2b718ec4b830e3989fa307123dedd79d03c966/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20responses/Images/Check%20for%20password%20length%20equal%20to%201.png)
 
 Automate this -> 
 
