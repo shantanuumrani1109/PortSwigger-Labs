@@ -81,7 +81,7 @@ In particular, the subquery `(SELECT username FROM users WHERE username='adminis
 
 The outer part of the string `AND (SELECT username FROM users WHERE username='administrator' AND LENGTH(password)>1)='administrator'` is then attempting to compare this value to the string literal 'administrator'. If the subquery returns the value 'administrator', then the entire expression will evaluate to true.
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/cb93f89bfb36efcb40b41f3a4975c4a8ba27d247/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20responses/Images/Check%20for%20password%20length%20greater%20than%201.png)
 
 This confirms that the password is greater than 1
 
