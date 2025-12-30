@@ -31,7 +31,7 @@ there maybe 2 results - TrackinID does/does not exist.
 SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>' AND 1=1-- '
 ```
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/1e246052772ff3c9653e483837f37f5888f9940b/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20responses/Images/True%20Condition.png)
 
 
 - Condition(1=2) = **FALSE** -> **Welcome back message is not shown**
