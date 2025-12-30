@@ -57,7 +57,7 @@ This SQL statement is checking whether the result of a subquery, which selects t
 If users table  is there, then the condition return x . It checks if returned 'x' = 'x'. Now condition is TRUE. So it conforms that users table is present.
 ```
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/a09a494ae654652acf792d0b0adb56139a8a104b/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20responses/Images/Confirm%20User%20Table.png)
 
 We see a *Welcome back* msg , so it conforms that there is a users table.
 
