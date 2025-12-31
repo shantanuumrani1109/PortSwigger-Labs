@@ -111,7 +111,7 @@ RESPONSE -
 
 The length of password will be definitly > 1 , so we get an error.
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/b0e27091a9d91f7dfa2ca2c2584ac6e9197460aa/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20errors/Images/Check%20for%20Password%20Length.png)
 
 AUTOMATE THIS by Burp Intruder , by adding password length *(LENGTH>1)* as payload .
 
