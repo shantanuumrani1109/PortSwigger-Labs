@@ -7,7 +7,7 @@
 
 Request looks like this 
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/297023f88922239244e06677a0c7130613f52240/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20errors/Images/Initial%20Tracking.png)
 
 Query looks like the following 
 
@@ -23,7 +23,7 @@ SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>'
 SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>''
 ```
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/297023f88922239244e06677a0c7130613f52240/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20errors/Images/Adding%20Single%20Apostrophe.png)
 
 
 2. Add 2 extra `'` symbol, we get a response  back which indicates that the sql syntax is correct ('' indicates opening and closing of query & hence correct sql query)
@@ -31,7 +31,8 @@ SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>''
 ```sql
 SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>'''
 ```
-![image]()
+![image](
+https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/297023f88922239244e06677a0c7130613f52240/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20errors/Images/Adding%20Double%20Apostrophe.png)
 
 
 #### Conform the reason for error is invalid SQL query -
