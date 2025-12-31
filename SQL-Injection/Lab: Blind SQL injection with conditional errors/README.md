@@ -31,7 +31,7 @@ SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>''
 ```sql
 SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>'''
 ```
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/9efabb8a988ec359ef207c9ab1c2a4d7053984f4/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20errors/Images/Adding%20Double%20Apostrophe.png)
 
 
 #### Conform the reason for error is invalid SQL query -
