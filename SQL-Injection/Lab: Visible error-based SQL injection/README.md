@@ -1,6 +1,6 @@
 ## Lab Description -
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/8b2f0b76df9d8ef33c516b2b9eeef0d3deed7a85/SQL-Injection/Lab%3A%20Visible%20error-based%20SQL%20injection/Images/Lab%20Description.png)
 
 
 ## Overview -
@@ -137,7 +137,7 @@ Admin Credentials - `administrator:92xxhtubhmgxhsyhhldk`
 
 Now login as admin in the shopping website to solve the lab.
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/8b2f0b76df9d8ef33c516b2b9eeef0d3deed7a85/SQL-Injection/Lab%3A%20Visible%20error-based%20SQL%20injection/Images/Lab%20Solution.png)
 
 
 
