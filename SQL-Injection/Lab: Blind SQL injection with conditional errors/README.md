@@ -119,7 +119,7 @@ AUTOMATE THIS by Burp Intruder , by adding password length *(LENGTH>1)* as paylo
 
 From req 20, we get an error where condition is *(LENGTH > 20)*
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/e83e266974e502923f3901090b467dbc5984fab3/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20errors/Images/Password%20Length%20Checked.png)
 
 This means that the password size is exactly **20** characters.
 
