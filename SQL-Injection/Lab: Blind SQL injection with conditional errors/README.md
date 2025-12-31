@@ -96,7 +96,7 @@ We get a 200 response , means the condition failed and hence it returned nothing
 TrackingId=xyz'||(SELECT CASE WHEN (1=1) THEN TO_CHAR(1/0) ELSE '' END FROM users WHERE username='administrator')||'
 ```
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/4cd808f31817071e427df8ac3bb35104a2c6119c/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20errors/Images/Check%20for%20Username%20Administrator.png)
 
 It shows an error which means there is indeed a user called *administrator*
 
