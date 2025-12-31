@@ -38,7 +38,7 @@ SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>'''
 
 1. To do this, you first need to construct a subquery using valid SQL syntax. Try submitting: `TrackingId=xyz'||(SELECT '')||'`
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/3cbca3445c77858a32a5bd4ac7c53706a54d22fd/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20errors/Images/Trial%20Check%20Error%20Confirm.png)
 
 
 In this case, notice that the query still appears to be invalid. This may be because the database used here is **ORACLE** & for that we need to specify a table called **DUAL**. Hence we got this error.
