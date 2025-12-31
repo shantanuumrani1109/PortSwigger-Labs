@@ -79,7 +79,7 @@ We receive an error. means the condition is *TRUE* so it threw an **divide by 0*
 
 2. Set **(1=2)** ie. Condition is FALSE - `TrackingId=xyz'||(SELECT CASE WHEN (1=2) THEN TO_CHAR(1/0) ELSE '' END FROM dual)||'`
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/fc5173f808df7df61c111e775005e49abee5fdb6/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20errors/Images/False%20Condition%20-%20Admin%20User%20Check.png)
 
 We get a 200 response , means the condition failed and hence it returned nothing !
 
