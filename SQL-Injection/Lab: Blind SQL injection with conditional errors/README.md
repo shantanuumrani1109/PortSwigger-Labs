@@ -62,7 +62,7 @@ Hence confirmed.
 We can verify whether *users* table exist or not by the following command `TrackingId=xyz'||(SELECT '' FROM users WHERE ROWNUM = 1)||'`
 
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/db43b7613cd4633c7d7843ebb6ff56db4083385b/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20errors/Images/Verify%20If%20User%20Table%20Exists.png)
 
 No error -> implies that users table exist.
 
