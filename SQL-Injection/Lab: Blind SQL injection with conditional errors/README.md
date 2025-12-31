@@ -23,7 +23,7 @@ SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>'
 SELECT trackingId FROM someTable WHERE trackingId = '<COOKIE-VALUE>''
 ```
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/e3c2f5a482396f0ede193f53680a0668fe84c744/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20errors/Images/Adding%20Single%20Apostrophe.png)
 
 
 2. Add 2 extra `'` symbol, we get a response  back which indicates that the sql syntax is correct ('' indicates opening and closing of query & hence correct sql query)
