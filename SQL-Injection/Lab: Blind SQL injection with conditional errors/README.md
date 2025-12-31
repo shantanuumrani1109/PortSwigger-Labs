@@ -52,8 +52,7 @@ We get  a response without any error , we can confrom that it is an ORACLE datab
 
 3. To conform this we can give an invalid query by specifying some random table `TrackingId=xyz'||(SELECT '' FROM not-a-real-table)||'`
 
-
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/b7c1a44e91fed1493a4ba5a16f7e718782c8f59e/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20errors/Images/Providing%20Invalid%20Table%20Name.png)
 
 Hence confirmed.
 
