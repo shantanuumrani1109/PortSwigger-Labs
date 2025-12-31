@@ -47,7 +47,7 @@ In this case, notice that the query still appears to be invalid. This may be bec
 2. Try specifying a predictable table name in the query: `TrackingId=xyz'||(SELECT '' FROM dual)||'`
 
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/3be1658d1abee0e72a7307fe80151d1371410976/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20errors/Images/Predicting%20Table%20Name%20in%20Oracle%20Database.png)
 
 We get  a response without any error , we can confrom that it is an ORACLE database *which requires all SELECT statements to explicitly specify a table name*. 
 
