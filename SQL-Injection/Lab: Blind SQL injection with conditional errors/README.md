@@ -136,10 +136,10 @@ Payload 2 - Bruteforcer
 
 We get the 20 responses which returned a error.
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/daa1726ea3a30a3bcd3c8b89d3520e3e4cd34453/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20conditional%20errors/Images/Cracked%20Admin%20Password.png)
 
 
-Thus we got the admin's password - `8fysuozl95mngaem0abi`
+Thus we got the admin's password - `3lpb423rsuuvbtb569eg`
 
 Now we can log in as administrator ,
 
