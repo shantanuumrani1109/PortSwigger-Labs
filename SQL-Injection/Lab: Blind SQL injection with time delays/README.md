@@ -39,7 +39,7 @@ To do this we can use the following payload
 TrackingId=x'||pg_sleep(10)--
 ```
 
-![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/63ca2d1fc1e8180643b467bff2b3ec5840a3ecfe/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20time%20delays/Images/Time%20Delay%20Vulnerability.png)
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/a1655167c0917236af6baa2a9fa6a5ed1dfca0c6/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20time%20delays/Images/Time%20Delay%20Vulnerability%20-%2010s.png)
 
 We get a response after 10 sec which confirms the SQL injection vulnerability.
 
