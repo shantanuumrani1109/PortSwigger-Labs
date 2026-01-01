@@ -30,7 +30,7 @@ The request looks like this
 
 SLEEP command differs for each type of databse, here we find it by trial & error method that it is a *POSTgreSQL database*
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/9eaf249f7817e6cb0dc9a27a34a4178e3432bd73/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20time%20delays/Images/Sleep%20Command%20-%20Time%20Delays.png)
 
 
 To do this we can use the following payload 
