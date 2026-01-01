@@ -44,7 +44,7 @@ TrackingId=x'||pg_sleep(10)--
 We get a response after 10 sec which confirms the SQL injection vulnerability.
 
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/1775d2d6309e162c1ea515b9bb91b6cb25cea9f1/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20time%20delays/Images/Lab%20Solution.png)
 
 
 
