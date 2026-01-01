@@ -119,7 +119,7 @@ EG - It may produce error like `User shebu is not an integer`
 
 **Response** 
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/566998f85b4cd85abdd19db0c87f908c14d5f57e/SQL-Injection/Lab%3A%20Visible%20error-based%20SQL%20injection/Images/Username%20of%20Administrator%20Retrieved.png)
 
 Now that we know that `administrator` is the first user in the users table , let's retreive his password.
 
