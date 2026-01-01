@@ -1,6 +1,6 @@
 ## Lab Description :
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/9955f4d7f900928c7766e832e9abf7406492ca5c/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20time%20delays/Images/Lab%20Description.png)
 
 ## Overview :
 
