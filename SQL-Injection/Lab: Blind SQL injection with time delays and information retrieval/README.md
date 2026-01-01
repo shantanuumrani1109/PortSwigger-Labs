@@ -118,7 +118,7 @@ Now we get only the 20 items.NOw we can segregate in order based on PAYLOAD 1.
 We get the password of admin as - `30mmlu0fageqdcj4qv04`
 
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/f77d830c3a2b6b01325ae6638cbdf1992b4ad771/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20time%20delays%20and%20information%20retrieval/Images/Lab%20Solution.png)
 
 
 
