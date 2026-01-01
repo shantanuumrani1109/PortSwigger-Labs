@@ -37,7 +37,7 @@ ERROR: invalid input syntax for type integer: "Example data"
 
 When clicking on any catgory in products filter, browser sends a GET request with a **tracking cookie** & a session cookie.
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/4927c0e4f210ccc98fd0117b494b00e06f0f51df/SQL-Injection/Lab%3A%20Visible%20error-based%20SQL%20injection/Images/Cookie%20Session%20Details.png)
 
 Let's try to input a special character `'` in the TrackingID parameter since it is vulnerable as per lab description to try and induce an SQL error.
 
