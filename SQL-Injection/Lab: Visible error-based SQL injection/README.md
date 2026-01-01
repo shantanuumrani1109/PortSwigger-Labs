@@ -91,7 +91,7 @@ Now modify the *SELECT* query to retreive username from the database.
 
 We get a `500 Internal Server error` with the follwoing error response back.
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/f1f65a1a9662f8d6033cb9782f529416c2e0b27a/SQL-Injection/Lab%3A%20Visible%20error-based%20SQL%20injection/Images/Injection%20Payload%20to%20return%20Boolean%20data.png)
 
 ```sql
 SELECT * FROM tracking WHERE id = '1IV6QKZWpbBxZLdG' AND 1=CAST((SELECT username FROM users) AS'. Expected char
