@@ -105,7 +105,7 @@ TrackingId=' AND 1=CAST((SELECT username FROM users) AS int)--;
 **Response**
 
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/9684cdd55319e4db79e08869982a2d2da730933d/SQL-Injection/Lab%3A%20Visible%20error-based%20SQL%20injection/Images/More%20Rows%20Returned%20Error.png)
 
 Modify the query to return only 1 row,
 
