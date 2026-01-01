@@ -44,7 +44,7 @@ TrackingId=x'||pg_sleep(10)--
 We get a response after 10 sec which confirms the SQL injection vulnerability.
 
 
-![image](https://user-images.githubusercontent.com/67383098/235321954-4b95899e-90f0-4ae0-9fc8-97f6f5113c55.png)
+![image]()
 
 
 
