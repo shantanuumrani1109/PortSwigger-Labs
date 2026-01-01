@@ -131,9 +131,9 @@ Here in this payload we didn't giove  `WHERE username="administrator"` because L
 
 Thus we got the password of the admin user via error response.
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/9051c2e694577f333dc1b0f3ebe40ffd7221ecd1/SQL-Injection/Lab%3A%20Visible%20error-based%20SQL%20injection/Images/Password%20of%20Administrator%20Retrieved.png)
 
-Admin Credentials - `administrator:92xxhtubhmgxhsyhhldk`
+Admin Credentials - `administrator:9cdayus1fi1vmrv012t5`
 
 Now login as admin in the shopping website to solve the lab.
 
