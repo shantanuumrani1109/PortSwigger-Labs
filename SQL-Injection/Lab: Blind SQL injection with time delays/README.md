@@ -26,7 +26,7 @@ Using this technique, we can retrieve data in the way already described, by syst
 
 The request looks like this 
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/2ef9aceef941b88c11fbc459cf8f23333e73efc6/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20time%20delays/Images/Cookie%20Session%20Detail.png)
 
 SLEEP command differs for each type of databse, here we find it by trial & error method that it is a *POSTgreSQL database*
 
