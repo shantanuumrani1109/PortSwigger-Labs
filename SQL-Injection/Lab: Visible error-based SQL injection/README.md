@@ -68,7 +68,7 @@ The subquery (SELECT 1) is selecting the value 1 from the database. The CAST fun
 
 We get a `500 Internal Server error` with the following error response.
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/5979830100651be9f520fad69c8bfaf5d7473166/SQL-Injection/Lab%3A%20Visible%20error-based%20SQL%20injection/Images/Check%20Datatype.png)
 
 It says that **AND condition must be a boolean expression.**
 
