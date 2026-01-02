@@ -38,7 +38,7 @@ TrackingId=x';SELECT CASE WHEN (1=2) THEN pg_sleep(10) ELSE pg_sleep(0) END--
 
 We get a response immediately which means the condition failed (1=2)
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/1df55f3ebd729885e5b904ea7be413f70ff38368/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20time%20delays%20and%20information%20retrieval/Images/Condition%20Failed%20for%20checking%20vulnerability.png)
 
 #### Verify administrator user exists -
 
