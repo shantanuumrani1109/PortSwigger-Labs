@@ -28,7 +28,7 @@ TrackingId=x';SELECT CASE WHEN (1=1) THEN pg_sleep(10) ELSE pg_sleep(0) END--
 ```
 We get response after 10 sec delay, which confirms the blind SQL injection vulnerability
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/e4e9693d14baeabad2c5360d01b1b9995a5b8e93/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20time%20delays%20and%20information%20retrieval/Images/Confirms%20the%20blind%20SQL%20injection%20vulnerability.png)
 
 Change the boolean condition (1=2) to verify it
 
