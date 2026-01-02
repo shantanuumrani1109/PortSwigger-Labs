@@ -48,7 +48,7 @@ TrackingId=x';SELECT CASE WHEN (username='administrator') THEN pg_sleep(10) ELSE
 ```
 It takes 10 sec to respond which means there is indeed a user called administrator
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/f8565980b4e55285fe5e35ba765f502cf65f252c/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20time%20delays%20and%20information%20retrieval/Images/Verify%20Administrator%20User%20Exists.png)
 
 #### Find the length of admin's password -
 
