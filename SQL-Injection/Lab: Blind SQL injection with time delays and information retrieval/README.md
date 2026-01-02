@@ -6,7 +6,7 @@
 
 The captured request is as follows ,
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/ff7c6ea21dcecde4f1df737504a7ac969b7516ba/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20time%20delays%20and%20information%20retrieval/Images/Initial%20Tracking.png)
 
 
 The query looks somethiung like this :
