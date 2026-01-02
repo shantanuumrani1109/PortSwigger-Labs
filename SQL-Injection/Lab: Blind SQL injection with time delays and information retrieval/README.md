@@ -21,8 +21,7 @@ Modify the cookie value
 
 Since it is a POSTgreSQL , we use the following syntax
 
-![image]()
-
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/50e41295907b964a1f30a81b78963bdb78b13d43/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20time%20delays%20and%20information%20retrieval/Images/Conditional%20Time%20Delay%20Syntax.png)
 
 ```sql
 TrackingId=x';SELECT CASE WHEN (1=1) THEN pg_sleep(10) ELSE pg_sleep(0) END--
