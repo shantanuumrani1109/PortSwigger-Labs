@@ -7,7 +7,7 @@
 
 Cheatsheet to exfiltrate data using OAST technique,
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/81c070a3d49a061440e56c5cfe2ebecc6d0beaa0/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20out-of-band%20interaction/Images/DNS%20Lookup%20with%20Data%20Exfiltration%20Cheatsheet.png)
 
 We don't know which db we are dealing with here, so we use each command to find which version od db it is & exfiltrate data.
 
