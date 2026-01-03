@@ -13,7 +13,7 @@ We don't know which db we are dealing with here, so we use each command to find 
 
 Captured request look like this,
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/a722a230726aaae82a5e2d0b7c9d15d22da4988a/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20out-of-band%20interaction/Images/Get%20Cookie%20Details.png)
 
 The query looks something like this ,
 
