@@ -48,4 +48,4 @@ Open one of the requests & we get the password of the user admin - `3eqpnz5t53o1
 
 Now we can log in as administrator using the passwrod which we got,
 
-![image]()
+![image](https://github.com/shantanuumrani1109/PortSwigger-Labs/blob/395a7e6869f76adfb384105c320b19e370d7ddb1/SQL-Injection/Lab%3A%20Blind%20SQL%20injection%20with%20out-of-band%20interaction/Images/Lab%20Solution.png)
